@@ -3,15 +3,11 @@ import React, { Component } from 'react';
 import Person from '../components/Person/Person';
 import AddPerson from '../components/AddPerson/AddPerson';
 
-import {connect} from "react-redux";
+import {connect} from 'react-redux';
 
 import * as actionType from '../store/actions'
 
 class Persons extends Component {
-    state = {
-        persons: [],
-    }
-
     render () {
         return (
             <div>
